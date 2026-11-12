@@ -1,0 +1,30 @@
+name: FM1Flasher
+options:
+  bundleIdPrefix: com.nilsel
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  FM1Flasher:
+    type: application
+    platform: iOS
+    sources:
+      - FM1Flasher
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.nilsel.fm1flasher
+        CODE_SIGN_STYLE: Automatic
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
+    info:
+      path: FM1Flasher/Info.plist
+      properties:
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight

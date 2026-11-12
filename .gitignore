@@ -1,0 +1,10 @@
+.DS_Store
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Third-party community firmware packages — not ours to redistribute.
+# See README for where to get them.
+FM1Flasher/Firmware/*.fwsc

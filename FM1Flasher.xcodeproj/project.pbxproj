@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0386F1870C33AFB8AA868266 /* fomni-0.4.1.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = 729D5189F0A6A155F2E5CF9F /* fomni-0.4.1.fwsc */; };
+		05724473014F257473CD85B4 /* hyp1-1.5.62.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = EDC788CAEC9ECE42ED6EB600 /* hyp1-1.5.62.fwsc */; };
+		0F0FD511444FBD5A8E07CCA8 /* FirmwareInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101AF10BCB8EBD36DB72459C /* FirmwareInstaller.swift */; };
+		12FB469EBFABAB57810D62F2 /* dub-1.4.3.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = 869C906B589C5060B840F09E /* dub-1.4.3.fwsc */; };
+		13C4957171EF134C8B396CA1 /* sloop-2.8.5.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = A6EBD9452E0F887B3A6150DE /* sloop-2.8.5.fwsc */; };
+		1C8E949A0BEB62DF4FDD1A9B /* FirmwareHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D235DC5AB9802CC5420EECE /* FirmwareHub.swift */; };
+		22FC6C0FE2CC24FFD861374C /* FM1FlasherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535BC824016B29A8DD612334 /* FM1FlasherApp.swift */; };
+		382A00F338C63D5CEDC5B92C /* zen-1.2.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = D4B068B5E213E356C144679E /* zen-1.2.fwsc */; };
+		3C4B33CC67EEBE7FD33312BD /* bytemania-1.3.1.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = 30810A2D2E624434AEB56769 /* bytemania-1.3.1.fwsc */; };
+		4C6EB7A8BF64CB4AC0D03CD4 /* fumi-1.1.0.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = 0F98409DCA6139BFBD1185F9 /* fumi-1.1.0.fwsc */; };
+		608EFF66BCD1E6CC5FBE7936 /* satie1-0.1.3-beta.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = 1944516E41824783D437D558 /* satie1-0.1.3-beta.fwsc */; };
+		63BFD2AEAAFBDD0E8E184190 /* x0x-1.2.2.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = FB5657D32029D427E2EAA943 /* x0x-1.2.2.fwsc */; };
+		6908BE00DB02EFB7427D06F2 /* x0xrmx-1.1.0.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = D6802586A67B865E6EBB5B64 /* x0xrmx-1.1.0.fwsc */; };
+		7ABF0CA5FB372B821A937EA5 /* niagara-0.2.1.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = E916AC4655662E713EC8AA04 /* niagara-0.2.1.fwsc */; };
+		85F1D7E52DE8F47E092748C2 /* FirmwareCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2A07392F1A6AEC21742B77 /* FirmwareCatalog.swift */; };
+		8A5C844F4973C9D829D39671 /* MIDIDeviceDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23CEF54EA5CF961C1F81BDD /* MIDIDeviceDirectory.swift */; };
+		8E23B81267A5A608850BC368 /* nmsfm-0.9.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = 8AC2FBE031408801582C59EB /* nmsfm-0.9.fwsc */; };
+		92417C6E923E7F0D22EBDA49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBBDEC365C30990596D08C0 /* ContentView.swift */; };
+		9B77C210BCAE14BD69E902D7 /* ThumbnailCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E45E129C7CB74D066634AD8 /* ThumbnailCache.swift */; };
+		9C16F0D94CB18D4616880055 /* tuna-1.2-6f9a6dd.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = D55B970A7BBA6F6ABD3B758F /* tuna-1.2-6f9a6dd.fwsc */; };
+		A5AD0E5C1EA71A6AAC0C1320 /* obervave-3.3.2.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = 4CCD8BAC22AAA8A0052BF835 /* obervave-3.3.2.fwsc */; };
+		AC44BB1B18BBF77F0AB929E8 /* fimba-0.7.0.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = 77616DFEDA48E4824CE2A469 /* fimba-0.7.0.fwsc */; };
+		B431B91E02BE4589649962AD /* xmod-1.2.0.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = 45DFA5CF164D4DD254746C31 /* xmod-1.2.0.fwsc */; };
+		BEF2CD804DFAE59FC085E0B5 /* FirmwareHubBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278F2D9F3AA494A9F08F21C /* FirmwareHubBrowserView.swift */; };
+		C34232635EC242726775B8BF /* coralflower-0.7.1.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = FD0864992686EA62B39AB491 /* coralflower-0.7.1.fwsc */; };
+		C5D14557BCA128B6EE320B0E /* MIDIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE4EB71C22B7F291F856EA /* MIDIManager.swift */; };
+		D1AE399C28505DD5E241644A /* skiff-2.5.1.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = B4BC692740908B96E82E8353 /* skiff-2.5.1.fwsc */; };
+		F395B85768041A5583B5DF9C /* guitchordi-0.1.0-beta.1.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = 9093DF20AF62A2DBBA5B471E /* guitchordi-0.1.0-beta.1.fwsc */; };
+		F3E16EE622507DF5ED17462A /* jiant-V10.7.17.fwsc in Resources */ = {isa = PBXBuildFile; fileRef = FA76CDB1E4334E09E5D72A01 /* jiant-V10.7.17.fwsc */; };
+		FE972A5917084578D0504826 /* FM1Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D671EB5985789CAD6BA5FE4 /* FM1Protocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0278F2D9F3AA494A9F08F21C /* FirmwareHubBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareHubBrowserView.swift; sourceTree = "<group>"; };
+		0D235DC5AB9802CC5420EECE /* FirmwareHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareHub.swift; sourceTree = "<group>"; };
+		0F98409DCA6139BFBD1185F9 /* fumi-1.1.0.fwsc */ = {isa = PBXFileReference; path = "fumi-1.1.0.fwsc"; sourceTree = "<group>"; };
+		0FFE4EB71C22B7F291F856EA /* MIDIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIManager.swift; sourceTree = "<group>"; };
+		101AF10BCB8EBD36DB72459C /* FirmwareInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareInstaller.swift; sourceTree = "<group>"; };
+		1944516E41824783D437D558 /* satie1-0.1.3-beta.fwsc */ = {isa = PBXFileReference; path = "satie1-0.1.3-beta.fwsc"; sourceTree = "<group>"; };
+		30810A2D2E624434AEB56769 /* bytemania-1.3.1.fwsc */ = {isa = PBXFileReference; path = "bytemania-1.3.1.fwsc"; sourceTree = "<group>"; };
+		45DFA5CF164D4DD254746C31 /* xmod-1.2.0.fwsc */ = {isa = PBXFileReference; path = "xmod-1.2.0.fwsc"; sourceTree = "<group>"; };
+		4CCD8BAC22AAA8A0052BF835 /* obervave-3.3.2.fwsc */ = {isa = PBXFileReference; path = "obervave-3.3.2.fwsc"; sourceTree = "<group>"; };
+		535BC824016B29A8DD612334 /* FM1FlasherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FM1FlasherApp.swift; sourceTree = "<group>"; };
+		67D398F2F5149E2A3ABF61F1 /* FM1Flasher.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FM1Flasher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D671EB5985789CAD6BA5FE4 /* FM1Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FM1Protocol.swift; sourceTree = "<group>"; };
+		6E45E129C7CB74D066634AD8 /* ThumbnailCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailCache.swift; sourceTree = "<group>"; };
+		6F2A07392F1A6AEC21742B77 /* FirmwareCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareCatalog.swift; sourceTree = "<group>"; };
+		729D5189F0A6A155F2E5CF9F /* fomni-0.4.1.fwsc */ = {isa = PBXFileReference; path = "fomni-0.4.1.fwsc"; sourceTree = "<group>"; };
+		77616DFEDA48E4824CE2A469 /* fimba-0.7.0.fwsc */ = {isa = PBXFileReference; path = "fimba-0.7.0.fwsc"; sourceTree = "<group>"; };
+		869C906B589C5060B840F09E /* dub-1.4.3.fwsc */ = {isa = PBXFileReference; path = "dub-1.4.3.fwsc"; sourceTree = "<group>"; };
+		8AC2FBE031408801582C59EB /* nmsfm-0.9.fwsc */ = {isa = PBXFileReference; path = "nmsfm-0.9.fwsc"; sourceTree = "<group>"; };
+		9093DF20AF62A2DBBA5B471E /* guitchordi-0.1.0-beta.1.fwsc */ = {isa = PBXFileReference; path = "guitchordi-0.1.0-beta.1.fwsc"; sourceTree = "<group>"; };
+		A6EBD9452E0F887B3A6150DE /* sloop-2.8.5.fwsc */ = {isa = PBXFileReference; path = "sloop-2.8.5.fwsc"; sourceTree = "<group>"; };
+		B4BC692740908B96E82E8353 /* skiff-2.5.1.fwsc */ = {isa = PBXFileReference; path = "skiff-2.5.1.fwsc"; sourceTree = "<group>"; };
+		CFBBDEC365C30990596D08C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D23CEF54EA5CF961C1F81BDD /* MIDIDeviceDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIDeviceDirectory.swift; sourceTree = "<group>"; };
+		D4B068B5E213E356C144679E /* zen-1.2.fwsc */ = {isa = PBXFileReference; path = "zen-1.2.fwsc"; sourceTree = "<group>"; };
+		D55B970A7BBA6F6ABD3B758F /* tuna-1.2-6f9a6dd.fwsc */ = {isa = PBXFileReference; path = "tuna-1.2-6f9a6dd.fwsc"; sourceTree = "<group>"; };
+		D6802586A67B865E6EBB5B64 /* x0xrmx-1.1.0.fwsc */ = {isa = PBXFileReference; path = "x0xrmx-1.1.0.fwsc"; sourceTree = "<group>"; };
+		E916AC4655662E713EC8AA04 /* niagara-0.2.1.fwsc */ = {isa = PBXFileReference; path = "niagara-0.2.1.fwsc"; sourceTree = "<group>"; };
+		EDC788CAEC9ECE42ED6EB600 /* hyp1-1.5.62.fwsc */ = {isa = PBXFileReference; path = "hyp1-1.5.62.fwsc"; sourceTree = "<group>"; };
+		FA76CDB1E4334E09E5D72A01 /* jiant-V10.7.17.fwsc */ = {isa = PBXFileReference; path = "jiant-V10.7.17.fwsc"; sourceTree = "<group>"; };
+		FB5657D32029D427E2EAA943 /* x0x-1.2.2.fwsc */ = {isa = PBXFileReference; path = "x0x-1.2.2.fwsc"; sourceTree = "<group>"; };
+		FD0864992686EA62B39AB491 /* coralflower-0.7.1.fwsc */ = {isa = PBXFileReference; path = "coralflower-0.7.1.fwsc"; sourceTree = "<group>"; };
+		FE6C96E38BEF135E104A53A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13062B2C56AD7B0E5D189330 = {
+			isa = PBXGroup;
+			children = (
+				7E8346814CC564F24558C2DE /* FM1Flasher */,
+				261AFCA14FC28AEB7C6DA4A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24E87F898529F3F16A7A7423 /* Firmware */ = {
+			isa = PBXGroup;
+			children = (
+				30810A2D2E624434AEB56769 /* bytemania-1.3.1.fwsc */,
+				FD0864992686EA62B39AB491 /* coralflower-0.7.1.fwsc */,
+				869C906B589C5060B840F09E /* dub-1.4.3.fwsc */,
+				77616DFEDA48E4824CE2A469 /* fimba-0.7.0.fwsc */,
+				729D5189F0A6A155F2E5CF9F /* fomni-0.4.1.fwsc */,
+				0F98409DCA6139BFBD1185F9 /* fumi-1.1.0.fwsc */,
+				9093DF20AF62A2DBBA5B471E /* guitchordi-0.1.0-beta.1.fwsc */,
+				EDC788CAEC9ECE42ED6EB600 /* hyp1-1.5.62.fwsc */,
+				FA76CDB1E4334E09E5D72A01 /* jiant-V10.7.17.fwsc */,
+				E916AC4655662E713EC8AA04 /* niagara-0.2.1.fwsc */,
+				8AC2FBE031408801582C59EB /* nmsfm-0.9.fwsc */,
+				4CCD8BAC22AAA8A0052BF835 /* obervave-3.3.2.fwsc */,
+				1944516E41824783D437D558 /* satie1-0.1.3-beta.fwsc */,
+				B4BC692740908B96E82E8353 /* skiff-2.5.1.fwsc */,
+				A6EBD9452E0F887B3A6150DE /* sloop-2.8.5.fwsc */,
+				D55B970A7BBA6F6ABD3B758F /* tuna-1.2-6f9a6dd.fwsc */,
+				FB5657D32029D427E2EAA943 /* x0x-1.2.2.fwsc */,
+				D6802586A67B865E6EBB5B64 /* x0xrmx-1.1.0.fwsc */,
+				45DFA5CF164D4DD254746C31 /* xmod-1.2.0.fwsc */,
+				D4B068B5E213E356C144679E /* zen-1.2.fwsc */,
+			);
+			path = Firmware;
+			sourceTree = "<group>";
+		};
+		261AFCA14FC28AEB7C6DA4A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67D398F2F5149E2A3ABF61F1 /* FM1Flasher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E8346814CC564F24558C2DE /* FM1Flasher */ = {
+			isa = PBXGroup;
+			children = (
+				CFBBDEC365C30990596D08C0 /* ContentView.swift */,
+				6F2A07392F1A6AEC21742B77 /* FirmwareCatalog.swift */,
+				0D235DC5AB9802CC5420EECE /* FirmwareHub.swift */,
+				0278F2D9F3AA494A9F08F21C /* FirmwareHubBrowserView.swift */,
+				101AF10BCB8EBD36DB72459C /* FirmwareInstaller.swift */,
+				535BC824016B29A8DD612334 /* FM1FlasherApp.swift */,
+				6D671EB5985789CAD6BA5FE4 /* FM1Protocol.swift */,
+				FE6C96E38BEF135E104A53A6 /* Info.plist */,
+				D23CEF54EA5CF961C1F81BDD /* MIDIDeviceDirectory.swift */,
+				0FFE4EB71C22B7F291F856EA /* MIDIManager.swift */,
+				6E45E129C7CB74D066634AD8 /* ThumbnailCache.swift */,
+				24E87F898529F3F16A7A7423 /* Firmware */,
+			);
+			path = FM1Flasher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F6B78DBC4ED56CD2F5F2C2 /* FM1Flasher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6573E9FB006C5B2F80C564 /* Build configuration list for PBXNativeTarget "FM1Flasher" */;
+			buildPhases = (
+				651321D6DB9D3E9518DDABEA /* Sources */,
+				D914715C1FA6B03F9E720F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FM1Flasher;
+			packageProductDependencies = (
+			);
+			productName = FM1Flasher;
+			productReference = 67D398F2F5149E2A3ABF61F1 /* FM1Flasher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ECC6C7FA9A45E3586312900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					18F6B78DBC4ED56CD2F5F2C2 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 02CB4A358BBAA98D4650F7FA /* Build configuration list for PBXProject "FM1Flasher" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 13062B2C56AD7B0E5D189330;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 261AFCA14FC28AEB7C6DA4A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F6B78DBC4ED56CD2F5F2C2 /* FM1Flasher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D914715C1FA6B03F9E720F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4B33CC67EEBE7FD33312BD /* bytemania-1.3.1.fwsc in Resources */,
+				C34232635EC242726775B8BF /* coralflower-0.7.1.fwsc in Resources */,
+				12FB469EBFABAB57810D62F2 /* dub-1.4.3.fwsc in Resources */,
+				AC44BB1B18BBF77F0AB929E8 /* fimba-0.7.0.fwsc in Resources */,
+				0386F1870C33AFB8AA868266 /* fomni-0.4.1.fwsc in Resources */,
+				4C6EB7A8BF64CB4AC0D03CD4 /* fumi-1.1.0.fwsc in Resources */,
+				F395B85768041A5583B5DF9C /* guitchordi-0.1.0-beta.1.fwsc in Resources */,
+				05724473014F257473CD85B4 /* hyp1-1.5.62.fwsc in Resources */,
+				F3E16EE622507DF5ED17462A /* jiant-V10.7.17.fwsc in Resources */,
+				7ABF0CA5FB372B821A937EA5 /* niagara-0.2.1.fwsc in Resources */,
+				8E23B81267A5A608850BC368 /* nmsfm-0.9.fwsc in Resources */,
+				A5AD0E5C1EA71A6AAC0C1320 /* obervave-3.3.2.fwsc in Resources */,
+				608EFF66BCD1E6CC5FBE7936 /* satie1-0.1.3-beta.fwsc in Resources */,
+				D1AE399C28505DD5E241644A /* skiff-2.5.1.fwsc in Resources */,
+				13C4957171EF134C8B396CA1 /* sloop-2.8.5.fwsc in Resources */,
+				9C16F0D94CB18D4616880055 /* tuna-1.2-6f9a6dd.fwsc in Resources */,
+				63BFD2AEAAFBDD0E8E184190 /* x0x-1.2.2.fwsc in Resources */,
+				6908BE00DB02EFB7427D06F2 /* x0xrmx-1.1.0.fwsc in Resources */,
+				B431B91E02BE4589649962AD /* xmod-1.2.0.fwsc in Resources */,
+				382A00F338C63D5CEDC5B92C /* zen-1.2.fwsc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		651321D6DB9D3E9518DDABEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92417C6E923E7F0D22EBDA49 /* ContentView.swift in Sources */,
+				22FC6C0FE2CC24FFD861374C /* FM1FlasherApp.swift in Sources */,
+				FE972A5917084578D0504826 /* FM1Protocol.swift in Sources */,
+				85F1D7E52DE8F47E092748C2 /* FirmwareCatalog.swift in Sources */,
+				1C8E949A0BEB62DF4FDD1A9B /* FirmwareHub.swift in Sources */,
+				BEF2CD804DFAE59FC085E0B5 /* FirmwareHubBrowserView.swift in Sources */,
+				0F0FD511444FBD5A8E07CCA8 /* FirmwareInstaller.swift in Sources */,
+				8A5C844F4973C9D829D39671 /* MIDIDeviceDirectory.swift in Sources */,
+				C5D14557BCA128B6EE320B0E /* MIDIManager.swift in Sources */,
+				9B77C210BCAE14BD69E902D7 /* ThumbnailCache.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0880103D3202ABD2D37170C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FM1Flasher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nilsel.fm1flasher;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		446FCF51DDDF8775CCD82755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7CEE019C99C5C88748ECE727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DDB07BFF550E93A332A5A376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FM1Flasher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nilsel.fm1flasher;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02CB4A358BBAA98D4650F7FA /* Build configuration list for PBXProject "FM1Flasher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEE019C99C5C88748ECE727 /* Debug */,
+				446FCF51DDDF8775CCD82755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EC6573E9FB006C5B2F80C564 /* Build configuration list for PBXNativeTarget "FM1Flasher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB07BFF550E93A332A5A376 /* Debug */,
+				0880103D3202ABD2D37170C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ECC6C7FA9A45E3586312900 /* Project object */;
+}
