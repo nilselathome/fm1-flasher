@@ -11,7 +11,7 @@ required.
 ### Why?
 
 The FM-1 is very portable, and now you can flash it using pocket-sized hardware.
-But: there is no WebMIDI support on any iOS browser, so the app-route is the only way (for now).
+There is no WebMIDI support on any iOS browser, so the app-route is the only way (for now).
 
 ### Acknowledgements
 
