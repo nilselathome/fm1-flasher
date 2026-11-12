@@ -22,8 +22,9 @@ reverse-engineering notes, hardware/connectivity requirements, and
 known bricking risks and mitigations.
 
 <p align="center">
-  <img src="docs/screenshots/main-screen.png" width="280" alt="Main screen: pick a bundled firmware, connect to the FM-1 over USB MIDI, read its firmware version and flash chip ID">
-  <img src="docs/screenshots/browse-firmwares.png" width="280" alt="Browse Firmwares Online screen: live catalog from thefirmwarehub.com, sortable by stars/installs/name/recency, with thumbnails">
+  <img src="docs/screenshots/fm1-flasher-1.png" width="280" alt="Main screen: pick a bundled firmware, connect to the FM-1 over USB MIDI, read its firmware version and flash chip ID">
+  <img src="docs/screenshots/fm1-flasher-2.png" width="280" alt="Browse Firmwares Online screen: live catalog from thefirmwarehub.com, sortable by stars/installs/name/recency, with thumbnails">
+  <img src="docs/screenshots/fm1-flasher-3.png" width="280" alt="Browse Firmwares Online screen: live catalog from thefirmwarehub.com, sortable by stars/installs/name/recency, with thumbnails">
 </p>
 
 ## Firmware packages aren't in this repo
