@@ -2,11 +2,24 @@
 
 ## TL;DR
 
-Use your iPhone to flash FM-1 firmware, as in thefirmwarehub.com.
+Use your iOS device to flash FM-1 firmware, as in [The Firmware Hub](https://thefirmwarehub.com).
 
 A native iOS app for flashing community firmware onto the Vave FM-1, over
 USB MIDI, directly from an iPhone or iPad — no laptop or Chrome/Web MIDI
 required.
+
+### Why?
+
+The FM-1 is very portable, and now you can flash it using pocket-sized hardware.
+But: there is no WebMIDI support on any iOS browser, so the app-route is the only way (for now).
+
+### Acknowledgements
+
+The Firmware Hub, and all the firmware authors made this possible, huge thanks to them.
+
+### Current status
+
+USB connect, device-id enumeration, and firmware upload have been tested on iOS 17 and nothing caught fire.
 
 > **⚠️ Early-stage experiment.** This is a personal project, used only by
 > its author, not a published or reviewed app. It talks directly to FM-1
